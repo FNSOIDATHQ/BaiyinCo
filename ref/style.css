@@ -530,9 +530,81 @@ input,select,textarea,button {vertical-align:middle}
 .patent ul li a{
     box-shadow: -7px 0px rgba(203, 242, 255, 0.608);
 }
+.footer_base{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
 .footer{
-    display: block;
+    /* flex:6; */
     color: #505050;
+}
+
+.footer_right{
+    /* flex:1; */
+    justify-content: flex-end;
+    width:auto;
+    /* display: flex; */
+
+}
+.foot_block0{
+    /* background:; */
+    /* background: url() / cover; */
+    /* background-image: linear-gradient(180deg,  rgba(255, 204, 149, 1), rgba(0, 0, 0, 0) 80%), url('./PCR/PCR1.png') ; */
+    background-image: url('./QR/QR0.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot_block1{
+    /* background:; */
+    /* background: url() / cover; */
+    /* background-image: linear-gradient(180deg,  rgba(255, 204, 149, 1), rgba(0, 0, 0, 0) 80%), url('./PCR/PCR1.png') ; */
+    background-image: url('./QR/QR1.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot_block2{
+    /* background-image: linear-gradient(180deg,  rgba(255, 194, 172,1), rgba(0, 0, 0, 0) 80%), url('./PCR/prod2.png') ; */
+    background-image: url('./QR/QR2.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.view_block_foot{
+    padding: 5%;
+    display: block;
+
+    /* padding:1% 1% 3% 1%; */
+    height: 200px;
+    width:700px;
+    
+    /* position:relative; */
+    /* margin: 0 auto; */
+    
+    
+}
+.view_block_foot li{
+    width: auto;
+    height:auto;
+    
+}
+.view_block_foot li a{
+    float: left;
+    width: 200px;
+    height: 180px;
+    opacity: 100%;
+}
+
+.block_text_foot{
+    font-size:large;
+    /* -webkit-text-stroke: rgb(255,255,255) 0.2px; */
+    letter-spacing:2px;
+    font-weight:900;
+    text-align: center;
+    align-self: center;
 }
 
 .goTop {
@@ -542,14 +614,14 @@ input,select,textarea,button {vertical-align:middle}
 .goTop:hover{background:url(./scroll_up_hover.png) no-repeat center center;}
 
 /*footer*/
-.footerWrap{width: 100%;overflow:hidden;background: #90c0f8;}
-.footer{width: 70%;overflow:hidden;margin:auto;margin-left: 5%;}
-.footer-navWrap{width:100%;overflow:hidden;padding-top:4%;padding-bottom: 10%;}
+.footerWrap{width: auto;overflow:hidden;background: #90c0f8;}
+.footer{width: 150%;overflow:hidden;margin-left: 5%;}
+.footer-navWrap{width:150%;overflow:hidden;padding-top:4%;padding-bottom: 10%;}
 .footer-navWrap a{color:#fff;}
 .footer-navWrap a:hover{color:#a7a7a7;}
-.footer-nav{float:left;width:11%;}
-.footer-nav dt{font-size:16px;font-size:1.6rem;margin-bottom:30px;}
-.footer-nav dd{line-height:26px;}
+.footer-nav{float:left;width:13%;}
+.footer-nav dt{font-size:x-large;margin-bottom:30px;}
+.footer-nav dd{font-size:large;line-height:26px;}
 .footer-navWrap .last{width:6%;float:right;}
 .copyRight{width:100%;overflow:hidden;background-color:#3e9ae6;line-height:20px;text-align:center;padding:13px 0;color:#fff;font-size:12px;font-size:1.2rem;}
 .copyRight i{display: block;}
